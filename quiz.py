@@ -47,11 +47,24 @@ else:
 
 q4 = input("4. What is the shortest book in the New Testament?\na) 1 John \nb) 2 John \nc) 3 John\n>> ")
 
-if q2 == "a" or q3 == "1 John":
+if q4 == "a" or q4 == "1 John":
     print("Incorrect")
-elif q3 == "b" or q3 == "2 John":
+elif q4 == "b" or q4 == "2 John":
     print("Correct")
-elif q3 == "c" or q3 == "3 John":
+elif q4 == "c" or q4 == "3 John":
+    print("Incorrect")
+else:
+    print("That is not an option")
+
+q5 = input("5. Who is the author of the book of Revelation?\na) John \nb) Joseph \nc) Paul \nd) Timothy\n>> ")
+
+if q5 == "a" or q5 == "John":
+    print("Correct")
+elif q5 == "b" or q5 == "Joseph":
+    print("Incorrect")
+elif q5 == "c" or q5 == "Paul":
+    print("Incorrect")
+elif q5 == "d" or q5 == "Timothy":
     print("Incorrect")
 else:
     print("That is not an option")
