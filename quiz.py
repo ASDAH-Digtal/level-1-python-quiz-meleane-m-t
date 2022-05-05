@@ -1,11 +1,13 @@
 #Introduction
 print("Hello! Welcome to the bible quiz by Meleane")
 
+#Input 
 name = input("Enter your Name: ")
-print("Welcome {}!".format(name))
+print("Welcome {}".format(name))
 
 q1 = input("1. In what city was Jesus Born?\na) Nazareth \nb) Bethlehem \nc) Gethsamane \nd) Egypt\n>> ")
 
+#If-and-else statements
 if q1 == "a" or q1 == "Nazareth":
     print("Incorrect")
 elif q1 == "b" or q1 == "Bethlehem":
@@ -40,5 +42,16 @@ elif q3 == "c" or q3 == "38":
     print("Incorrect")
 elif q3 == "d" or q3 == "39":
     print("Correct")
+else:
+    print("That is not an option")
+
+q4 = input("4. What is the shortest book in the New Testament?\na) 1 John \nb) 2 John \nc) 3 John\n>> ")
+
+if q2 == "a" or q3 == "1 John":
+    print("Incorrect")
+elif q3 == "b" or q3 == "2 John":
+    print("Correct")
+elif q3 == "c" or q3 == "3 John":
+    print("Incorrect")
 else:
     print("That is not an option")
