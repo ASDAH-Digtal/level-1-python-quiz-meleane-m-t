@@ -68,3 +68,42 @@ elif q5 == "d" or q5 == "Timothy":
     print("Incorrect")
 else:
     print("That is not an option")
+
+q6 = input("6. What language was most of the Old Testament originally written in?\na) Greek \nb) Hebrew \nc) Latin \nd) Aramaic\n>> ")
+
+if q6 == "a" or q6 == "Greek":
+    print("Incorrect")
+elif q6 == "b" or q6 == "Hebrew":
+    print("Correct")
+elif q6 == "c" or q6 == "Latin":
+    print("Incorrect")
+elif q6 == "d" or q6 == "Aramaic":
+    print("Incorrect")
+else:
+    print("That is not an option")
+
+q7 = input("Matthew was a _______?\na) Tax Collector \nb) Fisherman \nc) Carpenter \nd) Murderer\n>> ")
+
+if q7 == "a" or q7 == "Tax Collector":
+    print("Correct")
+elif q7 == "b" or q7 == "Fisherman":
+    print("Incorrect")
+elif q7 == "c" or q7 == "Carpenter":
+    print("Incorrect")
+elif q7 == "d" or q7 == "Murderer":
+    print("Incorrect")
+else:
+    print("That is not an option")
+
+q8 = input("Why did God put a mark on Cain?\na) To curse him \nb) To shame him \nc) To protect him \nd) To mark him for slaughter\n>> ")
+
+if q8 == "a" or q8 == "To curse him":
+    print("Incorrect")
+elif q8 == "b" or q8 == "To shame him":
+    print("Incorrect")
+elif q8 == "c" or q8 == "To protect him":
+    print("Correct")
+elif q8 == "d" or q8 == "To mark him for slaughter":
+    print("Incorrect")
+else:
+    print("That is not an option")
