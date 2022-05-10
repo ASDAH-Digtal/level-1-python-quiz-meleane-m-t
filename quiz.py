@@ -107,3 +107,27 @@ elif q8 == "d" or q8 == "To mark him for slaughter":
     print("Incorrect")
 else:
     print("That is not an option")
+
+q9 = input("Name the place where Jesus walked on water?\na) Sea of Galilee \nb) Jordan River \nc) The Red Sea\n>> ")
+
+if q7 == "a" or q7 == "Sea of Galilee":
+    print("Correct")
+elif q7 == "b" or q7 == "Jordan River":
+    print("Incorrect")
+elif q7 == "c" or q7 == "The Red Sea":
+    print("Incorrect")
+else:
+    print("That is not an option")
+
+q10 = input("Which book did Jesus directly write?\na) Matthew \nb) Mark \nc) Luke \nd) John \ne) None\n>>")
+
+if q10 == "a" or q10 == "Sea of Galilee":
+    print("Incorrect")
+elif q10 == "b" or q10 == "Jordan River":
+    print("Incorrect")
+elif q10 == "c" or q10 == "The Red Sea":
+    print("Incorrect")
+elif q10 == "e" or q10 == "None": 
+    print("Correct")
+else:
+    print("That is not an option")
