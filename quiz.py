@@ -35,7 +35,7 @@ else:
     print("Score: ", score)
     print("\n")
 
-#QUESTION 3
+# QUESTION 3
 q3 = input("3. How many books are there in the old testament?\na) 27 \nb) 40 \nc) 38 \nd) 39\nAnswer: ")
 
 if q3 =="d" or q3 =="39":
