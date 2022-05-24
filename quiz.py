@@ -88,7 +88,7 @@ else:
     print("\n")
 
 # QUESTION 7
-q7 = input("Matthew was a _______?\na) Tax Collector \nb) Fisherman \nc) Carpenter \nd) Murderer\nAnswer: ")
+q7 = input("7. Matthew was a _______?\na) Tax Collector \nb) Fisherman \nc) Carpenter \nd) Murderer\nAnswer: ")
 
 if q7 =="a" or q7 =="Tax Collector":
     score += 1 
@@ -101,7 +101,7 @@ else:
     print("\n")
 
 # QUESTION 8
-q8 = input("Why did God put a mark on Cain?\na) To curse him \nb) To shame him \nc) To protect him \nd) To mark him for slaughter\nAnswer: ")
+q8 = input("8. Why did God put a mark on Cain?\na) To curse him \nb) To shame him \nc) To protect him \nd) To mark him for slaughter\nAnswer: ")
 
 if q8 =="c" or q8 =="To protect him":
     score += 1 
@@ -114,7 +114,7 @@ else:
     print("\n")
 
 # QUESTION 9
-q9 = input("Name the place where Jesus walked on water?\na) Sea of Galilee \nb) Jordan River \nc) The Red Sea\nAnswer: ")
+q9 = input("9. Name the place where Jesus walked on water?\na) Sea of Galilee \nb) Jordan River \nc) The Red Sea\nAnswer: ")
 
 if q9 =="a" or q9 =="Sea of Galilee":
     score += 1 
@@ -127,7 +127,7 @@ else:
     print("\n")
 
 # QUESTION 10
-q10 = input("Which book did Jesus directly write?\na) Matthew \nb) Mark \nc) Luke \nd) John \ne) None\nAnswer: ")
+q10 = input("10. Which book did Jesus directly write?\na) Matthew \nb) Mark \nc) Luke \nd) John \ne) None\nAnswer: ")
 
 if q9 =="e" or q9 =="none" or q9 =="None":
     score += 1 
