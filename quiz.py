@@ -129,7 +129,7 @@ else:
 # QUESTION 10
 q10 = input("10. Which book did Jesus directly write?\na) Matthew \nb) Mark \nc) Luke \nd) John \ne) None\nAnswer: ")
 
-if q9 =="e" or q9 =="none" or q9 =="None":
+if q10 =="e" or q10 =="none" or q10 =="None":
     score += 1 
     print("Correct!")
     print("Score: ", score)
